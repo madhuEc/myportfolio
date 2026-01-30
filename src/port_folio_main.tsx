@@ -180,7 +180,7 @@ const Portfolio = () => {
                         </button>
 
                         {/* Desktop Menu */}
-                        <div className="lg:flex items-center space-x-1">
+                        <div className="hidden min-[768px]:flex items-center space-x-1">
                             {navItems.map(item => {
                                 const Icon = item.icon;
                                 return (
@@ -237,7 +237,7 @@ const Portfolio = () => {
 
                 <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Profile and Title Row - Image Left, Name Right */}
-                    <div className="flex flex-row md:flex-row items-center md:items-start justify-center gap-8 md:gap-12 mb-8">
+                    <div className="flex flex-col min-[768px]:flex-row items-center md:items-start justify-center gap-8 md:gap-12 mb-8">
                         {/* Profile Photo - Left Side */}
                         <div className="lg:w-2/5 flex-shrink-0 animate-fade-in-left">
                             <div className="relative">
